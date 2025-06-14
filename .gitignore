@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+.env
+
+# Virtual environments
+bin/
+include/
+lib/
+lib64/
+share/
+pyvenv.cfg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+workspace/
+*.pdf
+!sample.pdf
+extracted_pages/
+ocr_output/
+translations/
+latex_output/
+*.log
+*.aux
+*.out
+*.toc
+*.synctex.gz
+
+# LaTeX temporary files
+*.fls
+*.fdb_latexmk
+*.dvi
+*.ps
+*.bbl
+*.blg
+
+# OCR and image processing
+*.png
+*.jpg
+*.jpeg
+!docs/images/*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# User data
+user_documents/
+output/
+
+# Keep empty directories
+!.gitkeep
